@@ -303,7 +303,6 @@ input {
 #add-user {
 	visibility: hidden;
 	opacity: 0;
-	transition: opacity 0.5s, visibility 0.5s;
 }
 
 #tab1:checked~#contacts,
@@ -311,6 +310,7 @@ input {
 #tab3:checked~#user,
 #tab4:checked~#edit-contact,
 #tab5:checked~#add-user {
+	transition: opacity 0.5s, visibility 0.5s;
 	visibility: visible;
 	opacity: 1;
 	top: 0;
