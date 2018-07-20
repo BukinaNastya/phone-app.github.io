@@ -313,7 +313,6 @@ input {
 #tab5:checked~#add-user {
 	visibility: visible;
 	opacity: 1;
-	transition: opacity 0.5s, visibility 0.5s;
 	top: 0;
 	position: absolute;
 	width: 100%;
